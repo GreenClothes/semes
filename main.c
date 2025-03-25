@@ -14,6 +14,9 @@ void runProducedCar();
 void testProducedCar();
 void delay(int ms);
 
+
+
+
 enum QuesionType {
 	CarType_Q,
 	Engine_Q,
