@@ -1,0 +1,94 @@
+﻿  main.cpp
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(46,2): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(12,7):
+      이 진단은 컴파일러 생성 함수 'void Compatibility::add_part(CarType,PartType)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(49,7): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(12,7):
+      이 진단은 컴파일러 생성 함수 'void Compatibility::add_part(CarType,PartType)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(52,7): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(12,7):
+      이 진단은 컴파일러 생성 함수 'void Compatibility::add_part(CarType,PartType)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(66,2): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(16,7):
+      이 진단은 컴파일러 생성 함수 'void Compatibility::remove_part(CarType,PartType)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(78,7): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(16,7):
+      이 진단은 컴파일러 생성 함수 'void Compatibility::remove_part(CarType,PartType)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(90,7): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(16,7):
+      이 진단은 컴파일러 생성 함수 'void Compatibility::remove_part(CarType,PartType)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(109,2): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(20,7):
+      이 진단은 컴파일러 생성 함수 'bool Compatibility::is_compatible(CmpType1,CmpType2)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(110,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(20,7):
+      이 진단은 컴파일러 생성 함수 'bool Compatibility::is_compatible(CmpType1,CmpType2)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(115,4): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(20,7):
+      이 진단은 컴파일러 생성 함수 'bool Compatibility::is_compatible(CmpType1,CmpType2)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(123,9): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(20,7):
+      이 진단은 컴파일러 생성 함수 'bool Compatibility::is_compatible(CmpType1,CmpType2)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(131,9): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(20,7):
+      이 진단은 컴파일러 생성 함수 'bool Compatibility::is_compatible(CmpType1,CmpType2)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(145,7): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(20,7):
+      이 진단은 컴파일러 생성 함수 'bool Compatibility::is_compatible(CmpType1,CmpType2)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(146,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(20,7):
+      이 진단은 컴파일러 생성 함수 'bool Compatibility::is_compatible(CmpType1,CmpType2)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(151,4): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(20,7):
+      이 진단은 컴파일러 생성 함수 'bool Compatibility::is_compatible(CmpType1,CmpType2)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(159,9): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(20,7):
+      이 진단은 컴파일러 생성 함수 'bool Compatibility::is_compatible(CmpType1,CmpType2)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(167,9): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(20,7):
+      이 진단은 컴파일러 생성 함수 'bool Compatibility::is_compatible(CmpType1,CmpType2)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(181,7): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(20,7):
+      이 진단은 컴파일러 생성 함수 'bool Compatibility::is_compatible(CmpType1,CmpType2)'에서 수행되었습니다.
+  
+C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(186,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\user\Desktop\carproject\semes\semes\semes\compatibility.h(20,7):
+      이 진단은 컴파일러 생성 함수 'bool Compatibility::is_compatible(CmpType1,CmpType2)'에서 수행되었습니다.
+  
+  semes.vcxproj -> C:\Users\user\Desktop\carproject\semes\semes\x64\Debug\semes.exe
+  'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+  배치 파일이 아닙니다.
