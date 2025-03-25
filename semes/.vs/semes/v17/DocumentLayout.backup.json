@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\semes\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE09F1A6-1AC6-409A-9223-172F3E60D5A3}|semes\\semes.vcxproj|C:\\Users\\user\\source\\repos\\semes\\semes\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{BE09F1A6-1AC6-409A-9223-172F3E60D5A3}|semes\\semes.vcxproj|C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE09F1A6-1AC6-409A-9223-172F3E60D5A3}|semes\\semes.vcxproj|solutionrelative:semes\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE09F1A6-1AC6-409A-9223-172F3E60D5A3}|semes\\semes.vcxproj|C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\carInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE09F1A6-1AC6-409A-9223-172F3E60D5A3}|semes\\semes.vcxproj|solutionrelative:semes\\carInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE09F1A6-1AC6-409A-9223-172F3E60D5A3}|semes\\semes.vcxproj|C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\compatibility.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE09F1A6-1AC6-409A-9223-172F3E60D5A3}|semes\\semes.vcxproj|solutionrelative:semes\\compatibility.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE09F1A6-1AC6-409A-9223-172F3E60D5A3}|semes\\semes.vcxproj|C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BE09F1A6-1AC6-409A-9223-172F3E60D5A3}|semes\\semes.vcxproj|solutionrelative:semes\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE09F1A6-1AC6-409A-9223-172F3E60D5A3}|semes\\semes.vcxproj|C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\compatibility.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE09F1A6-1AC6-409A-9223-172F3E60D5A3}|semes\\semes.vcxproj|solutionrelative:semes\\compatibility.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\semes\\semes\\main.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\main.c",
               "RelativeDocumentMoniker": "semes\\main.c",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\semes\\semes\\main.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\main.c",
               "RelativeToolTip": "semes\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAAAA0BAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-25T01:07:15.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "compatibility.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\compatibility.h",
+              "RelativeDocumentMoniker": "semes\\compatibility.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\compatibility.h",
+              "RelativeToolTip": "semes\\compatibility.h",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAM4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-25T04:24:40.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "carInfo.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\carInfo.h",
+              "RelativeDocumentMoniker": "semes\\carInfo.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\carInfo.h",
+              "RelativeToolTip": "semes\\carInfo.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-25T04:32:58.791Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "compatibility.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\compatibility.cpp",
+              "RelativeDocumentMoniker": "semes\\compatibility.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\compatibility.cpp",
+              "RelativeToolTip": "semes\\compatibility.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-25T04:24:29.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\main.cpp",
+              "RelativeDocumentMoniker": "semes\\main.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\carproject\\semes\\semes\\semes\\main.cpp",
+              "RelativeToolTip": "semes\\main.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-25T05:32:44.117Z",
               "EditorCaption": ""
             }
           ]
