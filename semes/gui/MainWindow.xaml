@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <ComboBox Name="TypeBox" HorizontalAlignment="Left" Margin="61,217,0,0" Width="120" SelectionChanged="Box_SelectionChanged" Height="30" VerticalAlignment="Top"/>
+        <ComboBox Name="EngineBox" HorizontalAlignment="Left" Margin="244,218,0,0" Width="120" SelectionChanged="Box_SelectionChanged" Height="30" VerticalAlignment="Top"/>
+        <ComboBox Name="BreakBox" HorizontalAlignment="Left" Margin="418,218,0,0" Width="120" SelectionChanged="Box_SelectionChanged" Height="30" VerticalAlignment="Top"/>
+        <ComboBox Name="SteerBox" HorizontalAlignment="Left" Margin="607,218,0,0" Width="120" SelectionChanged="Box_SelectionChanged" Height="30" VerticalAlignment="Top" Panel.ZIndex="3"/>
+        <TextBlock HorizontalAlignment="Center" Height="92" Margin="0,33,0,0" TextWrapping="Wrap" Text="차량 제작 프로그램" VerticalAlignment="Top" Width="312" FontSize="24" FontWeight="Bold" TextAlignment="Center"/>
+        <Button Content="테스트" HorizontalAlignment="Left" Height="40" Margin="607,113,0,0" VerticalAlignment="Top" Width="120" Click="TestBtn"/>
+        <Label Content="Type" HorizontalAlignment="Left" Height="40" Margin="61,172,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Engine" HorizontalAlignment="Left" Height="40" Margin="244,172,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Break" HorizontalAlignment="Left" Height="40" Margin="418,172,0,0" VerticalAlignment="Top" Width="120" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Steering" HorizontalAlignment="Left" Height="40" Margin="607,172,0,0" VerticalAlignment="Top" Width="120" FontSize="16" FontWeight="Bold"/>
 
     </Grid>
 </Window>

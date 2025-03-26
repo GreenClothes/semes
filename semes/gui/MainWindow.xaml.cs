@@ -86,6 +86,6 @@ public partial class MainWindow : Window
         udp.Send(sendMsg);
         recvMsg = udp.Receive();
 
-        if(recvMsg.Length > 0) MessageBox.Show(recvMsg);
+        if(recvMsg.Length > 0) MessageBox.Show(recvMsg, "결과", MessageBoxButton.OK, MessageBoxImage.Information);
     }
 }

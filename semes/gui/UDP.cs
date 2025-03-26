@@ -71,10 +71,13 @@ namespace gui
         {
             IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Parse(this.serverIP), 0);
 
+            int euckrCodePage = 51949;  // euc-kr 코드 번호
+            System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+
             try
             {
                 Byte[] receiveBytes = serverShell.Receive(ref RemoteIpEndPoint);
-                string receiveString = Encoding.ASCII.GetString(receiveBytes);
+                string receiveString = Encoding.GetEncoding(euckrCodePage).GetString(receiveBytes);
                 return receiveString;
             }
             catch (SocketException)

@@ -1,13 +1,24 @@
 #include "car.h"
 #include "user_interface.h"
+#include "CarServer.h"
 
 int main() {
-    // ÀÚµ¿Â÷ °´Ã¼ »ý¼º
+    // ï¿½Úµï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½
     Car car;
 
-    // »ç¿ëÀÚ ÀÎÅÍÆäÀÌ½º °´Ã¼ »ý¼º ¹× ½ÇÇà
-    UserInterface ui(car);
-    ui.run();
+    CarServer* carServer = new CarServer();
+    try {
+        carServer->StartServer();
+
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+        UserInterface ui(car);
+        ui.run();
+    }
+    catch (std::exception e) {
+        std::cout << "Error Occur : " << e.what() << "\n";
+        carServer->EndServer();
+        delete carServer;
+    }
 
     return 0;
 }
