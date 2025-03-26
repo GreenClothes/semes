@@ -1,6 +1,6 @@
 #pragma once
 
-enum class QuesionType {
+enum QuesionType {
 	CarType_Q,
 	Engine_Q,
 	BreakSystem_Q,
@@ -8,25 +8,25 @@ enum class QuesionType {
 	Run_Test,
 };
 
-enum class CarType {
+enum CarType {
 	SEDAN = 1,
 	SUV,
 	TRUCK
 };
 
-enum class Engine {
+enum Engine {
 	GM = 1,
 	TOYOTA,
 	WIA
 };
 
-enum class BreakSystem {
+enum BreakSystem {
 	MANDO = 1,
 	CONTINENTAL,
-	BOSCH
+	BOSCH_B
 };
 
-enum class SteeringSystem {
-	BOSCH = 1,
+enum SteeringSystem {
+	BOSCH_S = 1,
 	MOBIS
 };
