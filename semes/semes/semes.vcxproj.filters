@@ -24,12 +24,24 @@
     <ClCompile Include="car.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CarServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UDP.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="user_interface.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="car.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CarServer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
