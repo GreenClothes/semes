@@ -1,14 +1,7 @@
-﻿  CarServer.cpp
-  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
-  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
-  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
-  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
-  UDP.cpp
-  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
-  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
-  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
-  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+﻿  car.cpp
+  main.cpp
+  user_interface.cpp
   코드를 생성하고 있습니다...
-  semes.vcxproj -> C:\Users\901\Desktop\semes\semes\x64\Debug\semes.exe
+  semes.vcxproj -> C:\Users\user\semes\semes\x64\Debug\semes.exe
   'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
   배치 파일이 아닙니다.
