@@ -399,4 +399,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-./vcpkg_installed
+./semes/vcpkg_installed
