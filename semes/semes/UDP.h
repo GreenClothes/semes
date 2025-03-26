@@ -9,7 +9,7 @@ using boost::asio::ip::udp;
 enum { max_length = 1024 };
 
 class UDP {
-private:
+protected:
     boost::asio::io_context io_context;
     unsigned short port = 9999;
     udp::socket sock;

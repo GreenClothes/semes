@@ -44,7 +44,7 @@ enum SteeringSystem {
 };
 
 class Car {
-private:
+protected:
     // 부품 선택 상태 저장
     
     // 이름을 더 적절하게 변경

@@ -13,14 +13,41 @@ void CarServer::EndServer() {
 	if(serverThread.joinable()) serverThread.join();
 }
 
+std::string CarServer::GetCarInform() {
+
+	std::string carData = "";
+	carData += "Type ";
+	for (const auto& carTypeName : carTypeNames) {
+		carData += carTypeName.second;
+		carData += " ";
+	}
+	carData += "Engine ";
+	for (const auto& engineTypeName : engineTypeNames) {
+		carData += engineTypeName.second;
+		carData += " ";
+	}
+	carData += "Break ";
+	for (const auto& breakSystemName : breakSystemNames) {
+		carData += breakSystemName.second;
+		carData += " ";
+	}
+	carData += "Steer ";
+	for (const auto& steeringSystemName : steeringSystemNames) {
+		carData += steeringSystemName.second;
+		carData += " ";
+	}
+
+	return carData;
+}
+
 void CarServer::ServerLogic() {
 	std::string msg;
 
 	while (serverFlag) {
 		udp::endpoint sender_endpoint = Receive(&msg);
 		if (msg == "init") {
-			// 정보 보내주는 로직
-			Send("Type qaz wsx edc Engine qwe jms xxx wsww Steer ioio oiui ujjj jkjk lmlm hj Break popo", sender_endpoint);
+			std::string carData = GetCarInform();
+			Send(carData, sender_endpoint);
 		}
 		else {
 			// 차량 괜찮은지 확인하는 로직
