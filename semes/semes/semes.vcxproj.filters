@@ -15,18 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UDP.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CarServer.cpp">
+    <ClCompile Include="user_interface.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="car.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="UDP.h">
+    <ClInclude Include="user_interface.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="CarServer.h">
+    <ClInclude Include="car.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
